@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid black;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul>li{
+    padding: 10px;
+}
+.foodcard{
+    width:100%;
+}
+.card{
+    border: 1px solid black;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.restro{
+    display: flex;
+    flex-wrap: wrap;
+}
