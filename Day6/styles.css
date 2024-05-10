@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid black;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul>li{
+    padding: 10px;
+}
+.card{
+    /* border: 1px solid black; */
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 7px 5px 8px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-left: 40;
+}
+.card:hover{
+    transform: scale(1.1);
+    background-color: rgb(255, 105, 105);
+}
+.restaurantList{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    width: 100%;
+    height: 180px;
+}
+.shimmer{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 7px 5px 8px rgba(0, 0, 0, 0.1);
+    background-color: grey;
+    margin-left: 40;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-container{
+    display: flex;
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 7px 5px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+    
+}
+.search-input,.search-btn{
+    all: unset;
+    cursor: pointer;
+    margin: 5px;
+    padding:15px;
+    border-radius: 0px 20px 20px 0px;
+}
+.search-btn{
+    background-color: rgb(249, 181, 181);
+}
+.search-btn:hover{
+    background-color: rgb(250, 161, 161);
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+.link{
+    all: unset;
+    margin: 25px;
+}
+.first{
+    display: flex;
+    /* width: 100vw;    */
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.name-container{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    background-color: rgb(255, 137, 137);
+    padding: 20px;
+    justify-content: center;
+}
+.menu-container{
+    display: flex;
+    align-items: center;
+    height: 50%;
+    background-color: rgb(227, 201, 201);
+    width: 300px;
+    justify-content: center;
+}
+.area-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: rgb(244, 113, 113);
+    width: 300px;
+}
+a{
+    all: unset;
+}
+/* Style the form container */
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style form labels */
+  label {
+    font-weight: bold;
+  }
+  
+  .login{
+    height: 100%;
+  }
+
+  /* Style form inputs */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Style form button */
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Style form button on hover */
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style form checkbox */
+  .form-check-input {
+    margin-right: 5px;
+  }
+  
+  /* Style form text below input */
+  .form-text {
+    font-size: 80%;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .container{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot{
+    display: flex;
+    margin-top: 200px;
+  }
